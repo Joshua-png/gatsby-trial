@@ -6,8 +6,8 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
-  - label: "Index Page"
-    name: "index"
+  - label: "Pages"
+    name: "pages"
     files:
       - label: "Home Page"
         name: "home"
@@ -17,10 +17,12 @@ collections:
           - {label: Intro text, name: intro, widget: text}
           - {label: Image, name: image, widget: image}
 
-     - label: "About Page"
-        name: "about"
-        file: "content/about.md"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro text, name: intro, widget: text}
-          - {label: Image, name: image, widget: image}     
+  - label: "Pages"
+    name: "pages"
+      - label: "About Page"
+          name: "about"
+          file: "content/about.md"
+          fields:
+            - {label: Title, name: title, widget: string}
+            - {label: Intro text, name: intro, widget: text}
+            - {label: Image, name: image, widget: image}     
