@@ -1,0 +1,24 @@
+.h1{
+    font-size: 3rem;
+    color: #333333;
+}
+
+.container{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #666666;
+    font-size: 1rem;
+}
+
+.nav-item:hover{
+    color: #000000;
+}
+
+.active-nav-item{
+    color: green;
+}
