@@ -16,6 +16,8 @@
   "dependencies": {
     "gatsby": "^2.24.79",
     "gatsby-plugin-netlify-cms": "^4.3.17",
+    "gatsby-source-filesystem": "^2.3.37",
+    "gatsby-transformer-remark": "^2.8.46",
     "netlify-cms": "^2.10.66",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
